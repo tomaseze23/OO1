@@ -1,0 +1,24 @@
+package test;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+import modelo.Funciones;
+
+public class TestFunciones {
+	public static void main(String[] args) {
+		System.out.println(Funciones.esDiaHabil(LocalDate.of(2022, 9, 11)));
+		System.out.println(Funciones.esBisiesto(1900));
+		System.out.println(Funciones.traerFechaCorta(LocalDate.of(2022, 3, 29)));
+		System.out.println(Funciones.traerHoraCorta(LocalTime.of(10, 15)));
+		System.out.println(Funciones.traerDiaDeLaSemana(LocalDate.of(2022, 9, 17)));
+		System.out.println(Funciones.traerFechaLarga(LocalDate.now()));
+		System.out.println(Funciones.traerCantDiasDeUnMes(2022, 6));
+		System.out.println(Funciones.aproximar2Decimal(2.4332));
+		System.out.println(Funciones.esNumero('a'));
+		System.out.println(Funciones.esLetra('q'));
+		System.out.println(Funciones.esCadenaNros("152e4"));
+		System.out.println(Funciones.esCandenaLetras("como"));
+		System.out.println(Funciones.fechaEntrePeriodo(LocalDate.of(2022, 10, 22), LocalDate.of(2022, 10, 23), LocalDate.of(2022, 10, 26)));
+	}
+}

@@ -1,0 +1,17 @@
+package test;
+
+import numeros.Numeros;
+
+public class testNumeros {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Numeros n1 = new Numeros(2);
+		System.out.println(n1.esPrimo());
+		System.out.println(n1.esPar());
+		System.out.println(n1.convertirAString());
+		System.out.println(n1.convertirADouble());
+		System.out.println(n1.calcularPotencia(5));
+	}
+
+}

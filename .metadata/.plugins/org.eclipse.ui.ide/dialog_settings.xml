@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.buildship.ui.creationwizards"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\zaric\eclipse-workspace\practica-parcial-3"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Formulario CETA"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Zarich Tomas\44093293"/>
+			<item value="E:\OO1\practica_parcial_2.0"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Practica Segundo Parcial"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\SEGUNDO INTENTO\PracticaHerencia-Objetos1"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Zarich Tomas"/>
+			<item value="C:\Users\zaric\eclipse-workspace\44093293"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\SEGUNDO INTENTO\Guía Nro 5 (Herencia - Parte 1)\Herencia_Simple_Persona"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\SEGUNDO INTENTO\estaciones-metricas"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\SEGUNDO INTENTO\Guía Nro 4 (Métodos Estáticos y Excepciones)"/>
+			<item value="C:\Users\zaric\eclipse-workspace\practica Parcial"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Números"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\SEGUNDO INTENTO\ecommerce_"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Proyecto Supermercado"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Estaticos_y_Excepciones"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Numeros Primos"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\primer intento\Supermercado 2.0"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\primer intento\Supermercado"/>
+			<item value="C:\Users\zaric\Desktop\Proyecto Incaa - Nivel 2"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Proyecto"/>
+			<item value="C:\Users\zaric\eclipse-workspace\barbero dormilón"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Proyecto INCAA 1"/>
+			<item value="E:\Proyecto INCAA 1"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\SEGUNDO INTENTO\Guía 2 - Introducción al Paradigma (Segunda Parte)\Consultas"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\primer intento\Practicas\Números"/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="429"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="580"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="391"/>
+			<item key="DIALOG_Y_ORIGIN" value="35"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

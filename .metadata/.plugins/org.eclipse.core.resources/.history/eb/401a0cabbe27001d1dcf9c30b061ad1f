@@ -1,0 +1,117 @@
+package modelo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Incaa {
+	//atributos
+	private List<Pelicula> catalogo = new ArrayList<Pelicula>();
+
+	//constructor
+	public Incaa() {
+		this.catalogo = new ArrayList<Pelicula>();
+	}
+
+	//getter y setter
+	public List<Pelicula> getCatalogo() {
+		return catalogo;
+	}
+
+	public void setCatalogo(List<Pelicula> catalogo) {
+		this.catalogo = catalogo;
+	}
+	
+	//metodos
+	public boolean agregarPelicula(String pelicula, Genero genero) throws Exception {
+		int indice = 0;
+		while (indice < catalogo.size()) {
+			if (catalogo.get(indice).getPelicula() == pelicula) {
+				throw new Exception("ERROR: La pelicula '"+pelicula+"' ya se encuentra en la lista.");
+			}
+			indice++;
+		}
+		return catalogo.add(new Pelicula(indice, pelicula, genero));
+	}
+
+	public Pelicula traerPelicula(int idPelicula) throws Exception {
+		Pelicula p = null;
+		int indice = 0;
+		while (indice < catalogo.size()) {
+			if (idPelicula == catalogo.get(indice).getIdPelicula()) {
+				p = catalogo.get(indice);
+			}
+			indice++;
+		}
+		if (p == null) {
+			throw new Exception("La pelicula por 'ID " + idPelicula + "' no se encontró.");
+		}
+		return p;
+	}
+	public List<Pelicula> traerPelicula(Genero genero) throws Exception {
+		List<Pelicula> peliculasHalladas = new ArrayList<Pelicula>();
+		int indice = 0;
+		while (indice < catalogo.size()) {
+			if (catalogo.get(indice).getGenero()==genero) {
+				peliculasHalladas.add(catalogo.get(indice));
+			}
+			indice++;
+		}
+		if(peliculasHalladas.size()==0) {
+			throw new Exception("ERROR: no se encuentran peliculas del genero '"+genero.getGenero()+"' en el catalogo");
+		}
+		return peliculasHalladas;
+	}
+	public List<Pelicula> traerPelicula(String partePelicula) throws Exception{
+		List<Pelicula> peliculasHalladas = new ArrayList<Pelicula>();
+		int indice=0;
+		while(indice<catalogo.size()) {
+			if(catalogo.get(indice).getPelicula().contains(partePelicula)) {
+				peliculasHalladas.add(catalogo.get(indice));
+			}
+			indice++;
+		}
+		if(peliculasHalladas.size()==0) {
+			throw new Exception("ERROR: no se contraron peliculas que contengan '"+partePelicula+ "' en su titulo.");
+		}
+		return peliculasHalladas;
+	}	
+	
+	public void modificarPelicula(int idPelicula, String pelicula, Genero genero) throws Exception {
+		Pelicula p=traerPelicula(idPelicula);
+		if(p!=null) {
+			catalogo.get(p.getIdPelicula()).setPelicula(pelicula);
+			catalogo.get(p.getIdPelicula()).setGenero(genero);
+		}else {
+			throw new Exception("ERROR: La pelicula '"+pelicula+"' no se encuentra en el catalogo.");	
+		}
+	}
+
+	public boolean eliminarPelicula(int idPelicula) throws Exception {
+		int indice = 0;
+		Pelicula p = traerPelicula(idPelicula);
+		System.out.println(p);
+		if (p!=null) {
+			catalogo.remove(p.getIdPelicula());
+			while(indice<catalogo.size()){
+				catalogo.get(indice).setIdPelicula(indice);
+				indice++;
+			}
+		}else {
+			throw new Exception("ERROR: La pelicula con 'ID " + idPelicula + "' no existe en el catalogo.");
+		}
+		return true;
+
+	}
+	public void mostrarCatalogo() {
+		for(int i=0;i<catalogo.size();i++) {
+			System.out.println("ID Pelicula: "+catalogo.get(i).getIdPelicula()+" Nombre: "
+					+catalogo.get(i).getPelicula()+" -- "+catalogo.get(i).getGenero()+" \n");
+		}
+	}
+	public void mostrar(List<Pelicula> peliculas) {
+		for(int i=0;i<peliculas.size();i++) {
+			System.out.print("ID: "+peliculas.get(i).getIdPelicula()+" - Nombre: "
+					+peliculas.get(i).getPelicula()+" - "+peliculas.get(i).getGenero()+"\n");
+		}
+	}
+}
