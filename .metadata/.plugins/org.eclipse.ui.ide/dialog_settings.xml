@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.buildship.ui.creationwizards"/>
 			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.m2e"/>
 		</list>
 	</section>
 	<section name="BasicNewProjectResourceWizard">
@@ -16,6 +17,29 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\zaric\eclipse-workspace\SistemaGestionDeAulasOO2"/>
+			<item value="C:\Users\zaric\Documents\UNLa\4° año\OO2\drive-download-20230424T132035Z-001\Compilado Parciales\OO2 Alquiler-Propiedad\parcial oo2\1\Alquileres"/>
+			<item value="C:\Users\zaric\eclipse-workspace\SistemaStockOO2"/>
+			<item value="C:\Users\zaric\eclipse-workspace\SistemaDePeajeOO2"/>
+			<item value="C:\Users\zaric\eclipse-workspace\SistemaDeVacunas"/>
+			<item value="C:\Users\zaric\eclipse-workspace\SistemaCuidar-Practica"/>
+			<item value="C:\Users\zaric\Documents\dni35353535"/>
+			<item value="C:\Users\zaric\Documents\UNLa\4° año\OO2\drive-download-20230424T132035Z-001\Compilado Parciales\OO2 PARCIAL ABRIL 2022\Parcial abril resuleto"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Herencia Simple"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Hibernate-UnaEntidad"/>
+			<item value="C:\Users\zaric\eclipse-workspace\JavaMongo"/>
+			<item value="C:\Users\zaric\Documents\UNLa\4° año\OO2\drive-download-20230424T132035Z-001\OBJETOS 2021\PARCIALES OO2 COMPILADO CON BD\PARCIAL 002  CON BD PERMISO PERIODO PERMISO DIARIO"/>
+			<item value="C:\Users\zaric\Documents\UNLa\4° año\OO2\drive-download-20230424T132035Z-001\Compilado Parciales\OO2 PARCIAL ABRIL 2022\Parcial abril resuleto\POO2-Sistema-Aula"/>
+			<item value="C:\Users\zaric\eclipse-workspace\hibernate-herencia"/>
+			<item value="C:\Users\zaric\eclipse-workspace\hibernate-muchos-a-muchos"/>
+			<item value="C:\Users\zaric\Documents\UNLa\4° año\OO2\drive-download-20230424T132035Z-001\OBJETOS 2022\PlantillaFunciona 2022\src"/>
+			<item value="C:\Users\zaric\Documents\UNLa\4° año\OO2\drive-download-20230424T132035Z-001\OBJETOS 2022\PlantillaFunciona 2022"/>
+			<item value="C:\Users\zaric\Documents\UNLa\4° año\OO2\drive-download-20230424T132035Z-001\OBJETOS 2022\PRACTICAS-PARCIAL\PARCIALES OO2 COMPILADO CON BD\PARCIAL 002  CON BD PERMISO PERIODO PERMISO DIARIO"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Hibernate-Uno-A-Muchos"/>
+			<item value="C:\Users\zaric\Documents\UNLa\4° año\OO2\drive-download-20230424T132035Z-001\OBJETOS 2022\Guia3-HibernateUnoaMuchos\Guia32022Funciona\entidad-uno-a-muchos"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\SEGUNDO INTENTO\PRACTICAS\estaciones-metricas"/>
+			<item value="C:\Users\zaric\Documents\UNLa\2° año\Orientación a Objetos 1\SEGUNDO INTENTO\PRACTICAS\ecommerce_"/>
+			<item value="C:\Users\zaric\eclipse-workspace\Parcial 1"/>
 			<item value="C:\Users\zaric\eclipse-workspace\practica-parcial-3"/>
 			<item value="C:\Users\zaric\eclipse-workspace\Formulario CETA"/>
 			<item value="C:\Users\zaric\eclipse-workspace\Zarich Tomas\44093293"/>
